@@ -22,7 +22,7 @@ class RemainingCharactersAsset extends AssetBundle {
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@vendor/jlorente/jquery-remaining-characters';
+    public $sourcePath = '@vendor/jlorente/yii2-widget-remainingcharacters';
 
     /**
      * @inheritdoc
