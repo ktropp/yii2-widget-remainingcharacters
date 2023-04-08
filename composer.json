@@ -19,5 +19,11 @@
         "psr-4": {
             "jlorente\\remainingcharacters\\": ""
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ktropp/jquery-remaining-characters/"
+        }
+    ]
 }
