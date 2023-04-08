@@ -13,7 +13,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/jquery-remaining-characters": "dev-master"
+        "ktropp/jquery-remaining-characters": "dev-master"
     },
     "autoload": {
         "psr-4": {
