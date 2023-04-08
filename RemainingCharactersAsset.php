@@ -22,7 +22,7 @@ class RemainingCharactersAsset extends AssetBundle {
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@bower/jquery-remaining-characters';
+    public $sourcePath = '@vendor/jlorente/jquery-remaining-characters';
 
     /**
      * @inheritdoc
@@ -49,7 +49,7 @@ class RemainingCharactersAsset extends AssetBundle {
      * Selects the minified or the regular file depending on the debug configuration.
      */
     protected function setJs() {
-        $this->js = YII_DEBUG ? ['remaining_characters.js'] : ['remaining_characters.min.js'];
+        $this->js = ['remaining_characters.js'];
     }
 
 }
